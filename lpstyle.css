@@ -1,0 +1,111 @@
+*,
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins;
+}
+
+.brand{
+color: white;
+font-family: poppins;
+font-size: 30px;
+align-items: left;
+display: flex;
+margin-left: 30px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav{
+    background-color: #111;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    align-items: center;
+    
+}
+
+ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin: 25px;
+
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+}
+
+.artikel1{
+    width: 700px;
+    padding: 2rem 3rem;
+    text-align: justify;
+}
+
+.artikel2{
+    width: 700px;
+    padding: 1rem 3rem;
+    padding-bottom: 3rem;
+    text-align: justify;
+}
+
+aside{
+    
+    position: absolute;   /* Elemen akan tetap berada di posisi yang ditentukan */
+    top: 8rem;            /* Menempel di bagian atas */
+    right: 0;          /* Menempel di sisi kanan */
+    width: 30%;      /* Lebar aside */
+    height: 30%;      /* Tinggi aside sepanjang layar */
+    background-color: none;
+    color: black;
+    padding: 2rem 3rem;
+      
+}
+
+aside p{
+padding-bottom: 5px;
+
+}
+
+aside img{
+    width: 100%;
+    height: 270%;
+    
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+footer{
+    font-size: 12px;
+    background-color: #111;
+    height: 150px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    align-content: center;
+    justify-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    
+}

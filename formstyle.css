@@ -1,0 +1,59 @@
+*,
+html{
+    padding-top: 3rem;
+} */
+
+body{
+    padding: 5rem ;
+} 
+
+form {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+label {
+font-family: poppins;
+font-weight: bold;
+margin-top: 8px;
+margin-bottom: 4px;
+display: block;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+button{
+    font-family: poppins;
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover{
+    background-color: gray;
+    
+}
